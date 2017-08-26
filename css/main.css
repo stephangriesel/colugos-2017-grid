@@ -55,15 +55,38 @@ header:after {
     grid-template-rows: 1fr;
 }
 
-.one-text-half {
+.one-text-half-left {
     background: rgba(255,255,255,0.7);
     display: grid;
-    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end:1;
     height:100%;
     position: relative;
 }
 
-.one-text-half:after {
+.one-text-half-right {
+  background: rgba(255,255,255,0.9);
+  display: grid;
+  grid-column-start:2;
+  grid-column-end:2;
+  height:100%;
+  position: relative;
+}
+
+.one-text-half-left:after {
+  background: url("../img/1.jpeg");
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  content:'';
+  height:100%;
+  width: 100%;
+  z-index:-1;
+}
+
+.one-text-half-right:after {
   background: url("../img/1.jpeg");
   position: absolute;
   background-attachment: fixed;
