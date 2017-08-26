@@ -17,7 +17,8 @@ header {
     background:rgba(255,255,255,0.0);
     display: grid; 
     height:100%;
-    grid-template-columns:1fr;
+    padding:0.5em;
+    grid-template-rows:1fr;
 }
 
 header:after {
@@ -62,15 +63,17 @@ header:after {
     grid-column-start: 1;
     grid-column-end:1;
     height:100%;
+    padding:0.5em;
     position: relative;
 }
 
-.one-text-half-right {
+.one-text-half-right { /* Split columns in wrapped row */
   background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start:2;
   grid-column-end:2;
   height:100%;
+  padding:0.5em;
   position: relative;
 }
 
@@ -120,11 +123,44 @@ header:after {
     height:700px;
   }
 
-  .two-text {
+  .two-wrap {
     display: grid;
-    grid-template-columns: 1fr;
-    height:auto;
-}
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .two-text-half-left {
+    background: rgba(255,255,255,0.5);
+    display: grid;
+    grid-column-start:1;
+    grid-column-end:1;
+    height:100%;
+    padding:0.5em;
+    position: relative;
+  }
+
+  .two-text-half-right {
+    background: rgba(255,255,255,0.5);
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:2;
+    height:100%;
+    padding:0.5em;
+    position: relative;
+  }
+
+  .two-wrap:after {
+    background: url("../img/1.jpeg");
+    position: absolute;
+    background-attachment:fixed;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
 
   .three {
     background-image: url("../img/2.jpeg");
@@ -133,11 +169,45 @@ header:after {
     height:700px;
   }
 
-  .three-text {
+  .three-wrap {
     display: grid;
-    grid-template-columns: 1fr;
-    height:auto;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .three-text-half-left {
+    background: rgba(255,255,255,0.5);
+    display: grid;
+    grid-column-start:1;
+    grid-column-end:1;
+    height:100%;
+    padding:0.5em;
+    position: relative;
 }
+
+.three-text-half-right {
+  background: rgba(255,255,255,0.5);
+  display: grid;
+  grid-column-start:2;
+  grid-column-end:2;
+  height:100%;
+  padding:0.5em;
+  position: relative;
+}
+
+.three-wrap:after {
+  background: url("../img/3.jpeg");
+  position: absolute;
+  background-attachment:fixed;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 
   .four {
     background-image: url("../img/3.jpeg");
@@ -146,10 +216,41 @@ header:after {
     height:700px;
   }
 
-  .four-text {
+  .four-wrap {
     display: grid;
-    grid-template-columns: 1fr;
-    height:auto;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .four-text-half-left {
+    background: rgba(255,255,255,0.5);
+    display: grid;
+    grid-column-start:1;
+    grid-column-end:1;
+    height:100%;
+    position: relative;
+}
+
+.four-text-half-right {
+  background: rgba(255,255,255,0.5);
+  display: grid;
+  grid-column-start:2;
+  grid-column-end:2;
+  height:100%;
+  position: relative;
+}
+
+.four-wrap:after {
+    background: url("../img/4.jpeg");
+    position: absolute;
+    background-attachment:fixed;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
   .five {
@@ -159,11 +260,13 @@ header:after {
     height:700px;
   }
 
-  .five-text {
+  /*.five-text {
+    background: rgba(255,255,255,0.5);
     display: grid;
-    grid-template-columns: 1fr;
-    height:auto;
-}
+    grid-template-rows: 1;
+    height:100%;
+    position: relative;
+}*/
 
   .six {
     background-image: url("../img/5.jpeg");
@@ -176,17 +279,25 @@ header:after {
     display: grid;
     grid-template-columns: 1fr;
     height:auto;
+    padding:0.5em
 }
 
 .map {
 }
 
+.contact-wrap {
+  display: grid;
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
 .contact {
     align-content: center;
+    background: rgba(255,255,255,0.5);
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
-    padding:0;
+    padding:0.5em;
     text-align: center;
 }
 
@@ -199,10 +310,24 @@ ul {
     padding:0;
 }
 
+.contact:after {
+  background: url("../img/6.jpeg");
+  position: absolute;
+  background-attachment:fixed;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 footer {
-    background-color: #3E3E3E;
+    background-color: #999988;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding:0.5em;
 
 }
 
