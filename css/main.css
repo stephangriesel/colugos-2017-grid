@@ -50,7 +50,7 @@ header:after {
     height:500px; /* Change this to EM's*/
   }
 
-  .one-wrap {
+.one-wrap {
     display: grid;
     grid-template-rows: 1fr;
 }
