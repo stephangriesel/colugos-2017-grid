@@ -14,7 +14,7 @@ html body {
 /* Header start */
 
 header {
-    background:rgba(255,255,255,0.4);
+    background:rgba(255,255,255,0.0);
     display: grid; 
     height:100%;
     grid-template-columns:1fr;
@@ -47,16 +47,17 @@ header:after {
     background-image: url("../img/6.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:500px; /* Change this to EM's*/
+    height:800px; /* Change this to EM's*/
   }
 
 .one-wrap {
     display: grid;
     grid-template-rows: 1fr;
+    position: absolute;
 }
 
 .one-text-half-left {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.5);
     display: grid;
     grid-column-start: 1;
     grid-column-end:1;
@@ -65,7 +66,7 @@ header:after {
 }
 
 .one-text-half-right {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start:2;
   grid-column-end:2;
@@ -73,20 +74,20 @@ header:after {
   position: relative;
 }
 
-.one-text-half-left:after {
+.one-wrap:after {
   background: url("../img/1.jpeg");
   position: absolute;
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-size: cover;
   left: 0;
   top: 0;
-  content:'';
-  height:100%;
+  content: '';
+  height: 100%;
   width: 100%;
-  z-index:-1;
+  z-index: -1;
 }
 
-.one-text-half-right:after {
+/* .one-text-half-left:after {
   background: url("../img/1.jpeg");
   position: absolute;
   background-attachment: fixed;
@@ -97,7 +98,20 @@ header:after {
   height:100%;
   width: 100%;
   z-index:-1;
-}
+}*/
+
+/* .one-text-half-right:after {
+  background: url("../img/1.jpeg");
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  content:'';
+  height:100%;
+  width: 100%;
+  z-index:-1;
+}*/
 
   .two {
     background-image: url("../img/1.jpeg");
