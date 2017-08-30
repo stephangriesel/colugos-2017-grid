@@ -55,7 +55,6 @@ header h1 {
 
 .one {
   background-image: url("../img/6a.jpeg");
-  background-size: cover; 
   grid-template-columns: 1fr;
   height:800px; /* Change this to EM's*/
 }
@@ -105,7 +104,6 @@ header h1 {
 
 .two {
   background-image: url("../img/1a.jpeg");
-  background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -151,7 +149,6 @@ header h1 {
 
 .three {
   background-image: url("../img/2a.jpeg");
-  background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
 }
