@@ -27,7 +27,7 @@ header {
 }
 
 header:after {
-  background: url("../img/6.jpeg");
+  background: url("../img/6a.jpeg");
   position: absolute;
   background-attachment: fixed;
   background-size:cover;
@@ -54,14 +54,14 @@ header h1 {
 }
 
 .one {
-  background-image: url("../img/6.jpeg");
+  background-image: url("../img/6a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:800px; /* Change this to EM's*/
 }
 
 .one-wrap {
-  display: grid;
+  /* display: grid; */
   grid-template-rows: 1fr;
   position: absolute;
 }
@@ -91,7 +91,7 @@ header h1 {
 }
 
 .one-wrap:after {
-  background: url("../img/1.jpeg");
+  background: url("../img/1a.jpeg");
   position: absolute;
   background-attachment:fixed;
   background-size: cover;
@@ -103,34 +103,8 @@ header h1 {
   z-index: -1;
 }
 
-/* .one-text-half-left:after {
-  background: url("../img/1.jpeg");
-  position: absolute;
-  background-attachment: fixed;
-  background-size: cover;
-  left: 0;
-  top: 0;
-  content:'';
-  height:100%;
-  width: 100%;
-  z-index:-1;
-}*/
-
-/* .one-text-half-right:after {
-  background: url("../img/1.jpeg");
-  position: absolute;
-  background-attachment: fixed;
-  background-size: cover;
-  left: 0;
-  top: 0;
-  content:'';
-  height:100%;
-  width: 100%;
-  z-index:-1;
-}*/
-
 .two {
-  background-image: url("../img/1.jpeg");
+  background-image: url("../img/1a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
@@ -163,7 +137,7 @@ header h1 {
 }
 
 .two-wrap:after {
-  background: url("../img/1.jpeg");
+  background: url("../img/1a.jpeg");
   position: absolute;
   background-attachment:fixed;
   background-size: cover;
@@ -176,14 +150,14 @@ header h1 {
 }
 
 .three {
-  background-image: url("../img/2.jpeg");
+  background-image: url("../img/2a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
 }
 
 .three-wrap {
-  display: grid;
+  /* display: grid;*/
   grid-template-rows: 1fr;
   position: relative;
 }
@@ -209,7 +183,7 @@ header h1 {
 }
 
 .three-wrap:after {
-  background: url("../img/3.jpeg");
+  background: url("../img/3a.jpeg");
   position: absolute;
   background-attachment:fixed;
   background-size: cover;
@@ -223,14 +197,14 @@ header h1 {
 
 
 .four {
-  background-image: url("../img/3.jpeg");
+  background-image: url("../img/3a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
 }
 
 .four-wrap {
-  display: grid;
+  /* display: grid; */
   grid-template-rows: 1fr;
   position: relative;
 }
@@ -254,7 +228,7 @@ header h1 {
 }
 
 .four-wrap:after {
-  background: url("../img/4.jpeg");
+  background: url("../img/4a.jpeg");
   position: absolute;
   background-attachment:fixed;
   background-size: cover;
@@ -267,7 +241,7 @@ header h1 {
 }
 
 .five {
-  background-image: url("../img/4.jpeg");
+  background-image: url("../img/4a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
@@ -282,7 +256,7 @@ header h1 {
 }*/
 
 .six {
-  background-image: url("../img/5.jpeg");
+  background-image: url("../img/5a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
@@ -324,7 +298,7 @@ ul {
 }
 
 .contact:after {
-  background: url("../img/6.jpeg");
+  background: url("../img/6a.jpeg");
   position: absolute;
   background-attachment:fixed;
   background-size: cover;
@@ -350,7 +324,7 @@ footer {
 /* ######################################### */
 
 /* Larger than tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
   html body {
     background-color: #FFFFFF;
@@ -381,7 +355,7 @@ footer {
   }
   
   header:after {
-    background: url("../img/6a.jpeg");
+    background: url("../img/6.jpeg");
     position: absolute;
     background-attachment: fixed;
     background-size:cover;
@@ -405,12 +379,10 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    height:auto;
-    width:100%;
   }
   
   .one {
-    background-image: url("../img/6a.jpeg");
+    background-image: url("../img/6.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:800px; /* Change this to EM's*/
@@ -447,7 +419,7 @@ footer {
   }
   
   .one-wrap:after {
-    background: url("../img/1a.jpeg");
+    background: url("../img/1.jpeg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -459,34 +431,9 @@ footer {
     z-index: -1;
   }
   
-  /* .one-text-half-left:after {
-    background: url("../img/1.jpeg");
-    position: absolute;
-    background-attachment: fixed;
-    background-size: cover;
-    left: 0;
-    top: 0;
-    content:'';
-    height:100%;
-    width: 100%;
-    z-index:-1;
-  }*/
-  
-  /* .one-text-half-right:after {
-    background: url("../img/1.jpeg");
-    position: absolute;
-    background-attachment: fixed;
-    background-size: cover;
-    left: 0;
-    top: 0;
-    content:'';
-    height:100%;
-    width: 100%;
-    z-index:-1;
-  }*/
   
   .two {
-    background-image: url("../img/1a.jpeg");
+    background-image: url("../img/1.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:700px;
@@ -532,7 +479,7 @@ footer {
   }
   
   .three {
-    background-image: url("../img/2a.jpeg");
+    background-image: url("../img/2.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:700px;
@@ -565,7 +512,7 @@ footer {
   }
   
   .three-wrap:after {
-    background: url("../img/3a.jpeg");
+    background: url("../img/3.jpeg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -579,7 +526,7 @@ footer {
   
   
   .four {
-    background-image: url("../img/3a.jpeg");
+    background-image: url("../img/3.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:700px;
@@ -610,7 +557,7 @@ footer {
   }
   
   .four-wrap:after {
-    background: url("../img/4a.jpeg");
+    background: url("../img/4.jpeg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -623,14 +570,14 @@ footer {
   }
   
   .five {
-    background-image: url("../img/4a.jpeg");
+    background-image: url("../img/4.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:700px;
   }
   
   .six {
-    background-image: url("../img/5a.jpeg");
+    background-image: url("../img/5.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:700px;
@@ -672,7 +619,7 @@ footer {
   }
   
   .contact:after {
-    background: url("../img/6a.jpeg");
+    background: url("../img/6.jpeg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
