@@ -30,7 +30,7 @@ header:after {
   background: url("../img/6a.jpeg");
   position: absolute;
   background-attachment: fixed;
-  background-size: auto;
+  background-size:auto;
   left:0;
   top:0;
   content:'';
@@ -50,11 +50,12 @@ header h1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto; 
+  background-size: cover; 
 }
 
 .one {
   background-image: url("../img/6a.jpeg");
+  background-size: auto; 
   grid-template-columns: 1fr;
   height:800px; /* Change this to EM's*/
 }
@@ -93,7 +94,7 @@ header h1 {
   background: url("../img/1a.jpeg");
   position: absolute;
   background-attachment:fixed;
-  background-size: cover;
+  background-size: auto;
   left: 0;
   top: 0;
   content: '';
@@ -104,6 +105,7 @@ header h1 {
 
 .two {
   background-image: url("../img/1a.jpeg");
+  background-size: cover; 
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -138,7 +140,7 @@ header h1 {
   background: url("../img/1a.jpeg");
   position: absolute;
   background-attachment:fixed;
-  background-size: cover;
+  background-size: auto;
   left: 0;
   top: 0;
   content: '';
@@ -149,6 +151,7 @@ header h1 {
 
 .three {
   background-image: url("../img/2a.jpeg");
+  background-size: auto; 
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -183,7 +186,7 @@ header h1 {
   background: url("../img/3a.jpeg");
   position: absolute;
   background-attachment:fixed;
-  background-size: cover;
+  background-size: auto;
   left: 0;
   top: 0;
   content: '';
@@ -195,7 +198,7 @@ header h1 {
 
 .four {
   background-image: url("../img/3a.jpeg");
-  background-size: cover; 
+  background-size: auto; 
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -228,7 +231,7 @@ header h1 {
   background: url("../img/4a.jpeg");
   position: absolute;
   background-attachment:fixed;
-  background-size: cover;
+  background-size: auto;
   left: 0;
   top: 0;
   content: '';
