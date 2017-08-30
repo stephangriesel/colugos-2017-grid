@@ -405,7 +405,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    image-rendering: pixelated;
+    image-rendering: auto;
   }
   
   .one {
