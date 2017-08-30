@@ -30,7 +30,7 @@ header:after {
   background: url("../img/6a.jpeg");
   position: absolute;
   background-attachment: fixed;
-  background-size:cover;
+  background-size: auto;
   left:0;
   top:0;
   content:'';
