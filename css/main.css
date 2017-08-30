@@ -21,6 +21,7 @@ html body {
 
 header {
   background:rgba(255,255,255,0.0);
+  background: url("../img/6a.jpeg");
   display: grid; 
   height:100%;
   grid-template-rows:1fr;
