@@ -106,7 +106,7 @@ header h1 {
 
 .two {
   background-image: url("../img/1a.jpeg");
-  background-size: auto; 
+  background-size: contain;
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -152,7 +152,7 @@ header h1 {
 
 .three {
   background-image: url("../img/2a.jpeg");
-  background-size: auto; 
+  background-size: contain; 
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -199,7 +199,7 @@ header h1 {
 
 .four {
   background-image: url("../img/3a.jpeg");
-  background-size: auto; 
+  background-size: contain;
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -243,7 +243,7 @@ header h1 {
 
 .five {
   background-image: url("../img/4a.jpeg");
-  background-size: auto; 
+  background-size: contain;
   grid-template-columns: 1fr;
   height:700px;
 }
@@ -258,7 +258,7 @@ header h1 {
 
 .six {
   background-image: url("../img/5a.jpeg");
-  background-size: auto; 
+  background-size: contain;
   grid-template-columns: 1fr;
   height:700px;
 }
