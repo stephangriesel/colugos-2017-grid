@@ -51,14 +51,14 @@ header h1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto; 
+  background-size: cover; 
 }
 
 .one {
   background-image: url("../img/6a.jpeg");
   background-size: auto; 
   grid-template-columns: 1fr;
-  height:800px; /* Change this to EM's*/
+  height:auto; /* Change this to EM's*/
 }
 
 .one-wrap {
@@ -108,7 +108,7 @@ header h1 {
   background-image: url("../img/1a.jpeg");
   background-size: contain;
   grid-template-columns: 1fr;
-  height:700px;
+  height:auto;
 }
 
 .two-wrap {
@@ -154,7 +154,7 @@ header h1 {
   background-image: url("../img/2a.jpeg");
   background-size: contain; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:auto;
 }
 
 .three-wrap {
