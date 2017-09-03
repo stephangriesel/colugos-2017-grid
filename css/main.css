@@ -71,7 +71,7 @@ header h1 {
   margin: 0;
 }
 
-/* .one-text-half-left {
+.one-text-half-left {
   background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start: 1;
@@ -79,7 +79,7 @@ header h1 {
   height:100%;
   padding:15px;
   position: relative;
-}*/
+}
 
 .one-text-half-right { /* Split columns in wrapped row */
   background: rgba(255,255,255,0.5);
@@ -91,7 +91,7 @@ header h1 {
   position: relative;
 }
 
-/*.one-wrap:after {
+/* .one-wrap:after {
   background: url("../img/1a.jpeg");
   position: absolute;
   background-attachment:fixed;
@@ -111,13 +111,13 @@ header h1 {
   height:700px;
 }
 
-/* .two-wrap {
-  display: none; /* section removed, not using for now */ /*
+.two-wrap {
+  display: none; /* section removed, not using for now */ 
   grid-template-rows: 1fr;
   position: relative;
-} */
+} 
 
-/* .two-text-half-left {
+.two-text-half-left {
   background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start:1;
@@ -135,7 +135,7 @@ header h1 {
   height:100%;
   padding:15px;
   position: relative;
-} */
+} 
 
 /* .two-wrap:after {
   background: url("../img/1a.jpeg");
@@ -163,7 +163,7 @@ header h1 {
   position: relative;
 }
 
-/* .three-text-half-left {
+.three-text-half-left {
   background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start:1;
@@ -210,7 +210,7 @@ header h1 {
   position: relative;
 }
 
-/* .four-text-half-left {
+.four-text-half-left {
   background: rgba(255,255,255,0.5);
   display: grid;
   grid-column-start:1;
@@ -226,9 +226,9 @@ header h1 {
   grid-column-end:2;
   height:100%;
   position: relative;
-} */
+} 
 
-/* .four-wrap:after {
+/*.four-wrap:after {
   background: url("../img/4a.jpeg");
   position: absolute;
   background-attachment:fixed;
@@ -258,7 +258,7 @@ header h1 {
 
 .six {
   background-image: url("../img/5a.jpeg");
-  background-size: cover; 
+  background-size: auto; 
   grid-template-columns: 1fr;
   height:700px;
 }
