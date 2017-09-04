@@ -47,7 +47,7 @@ header h1 {
 .one, .two, .three, .four, .five, .six{
   display: grid;
   grid-template-rows: 1fr;
-  position: relative;
+  /* position: relative;*/
   /* background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
