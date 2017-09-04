@@ -110,7 +110,7 @@ header h1 {
   background-image: url("../img/1a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
-  height:700px;
+  /* height:700px;*/
 }
 
 .two-wrap {
