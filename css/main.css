@@ -47,19 +47,19 @@ header h1 {
 .one, .two, .three, .four, .five, .six{
   display: grid;
   grid-template-rows: 1fr;
-  position: relative;
+  /* position: relative;*/
   /* background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
-.one {
+/* .one {
   background-image: url("../img/6a.jpeg");
   background-size: auto; 
   grid-template-columns: 1fr;
-  height:800px; /* Change this to EM's*/
-}
+  height:800px; /* Change this to EM's*//*
+}*/
 
 .one-wrap {
   /* display: grid; */
@@ -78,7 +78,7 @@ header h1 {
   grid-column-end:1;
   height:100%;
   padding:15px;
-  position: relative;
+  /* position: relative;
 }
 
 .one-text-half-right { /* Split columns in wrapped row */
@@ -108,7 +108,7 @@ header h1 {
   background-image: url("../img/1a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:100%;
 }
 
 .two-wrap {
@@ -154,7 +154,7 @@ header h1 {
   background-image: url("../img/2a.jpeg");
   background-size: auto; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:100%;
 }
 
 .three-wrap {
@@ -201,7 +201,7 @@ header h1 {
   background-image: url("../img/3a.jpeg");
   background-size: auto; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:100%;
 }
 
 .four-wrap {
@@ -245,7 +245,7 @@ header h1 {
   background-image: url("../img/4a.jpeg");
   background-size: auto; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:100%;
 }
 
 /*.five-text {
@@ -260,7 +260,7 @@ header h1 {
   background-image: url("../img/5a.jpeg");
   background-size: cover; 
   grid-template-columns: 1fr;
-  height:700px;
+  height:100%;
 }
 
 .six-text {
