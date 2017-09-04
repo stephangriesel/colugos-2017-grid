@@ -27,6 +27,23 @@ header {
   height: 500px;
 }
 
+footer {
+  background-color: #999999;
+  display: grid;
+  font-size: 12px;
+  grid-template-rows: 1fr;
+  justify-content: right;
+  padding-right:1.8em;
+}
+
+ul li {
+  list-style:none;
+  padding:0;
+}
+
+ul {
+  padding:0;
+}
 /* ######################################### */
 /* Media Queries Start */
 /* ######################################### */
