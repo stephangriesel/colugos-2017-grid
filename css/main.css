@@ -47,7 +47,7 @@ header h1 {
 .one, .two, .three, .four, .five, .six{
   display: grid;
   grid-template-rows: 1fr;
-  /* position: relative;*/
+  position: relative;
   /* background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
@@ -74,8 +74,9 @@ header h1 {
 .one-text-half-left {
   background: rgba(255,255,255,0.5);
   display: grid;
-  grid-column-start: 1;
-  grid-column-end:1;
+  grid-template-rows: 1fr;
+  /*grid-column-start: 1;
+  grid-column-end:1;*/
   height:100%;
   padding:15px;
   /* position: relative;
@@ -84,8 +85,9 @@ header h1 {
 .one-text-half-right { /* Split columns in wrapped row */
   background: rgba(255,255,255,0.5);
   display: grid;
-  grid-column-start:2;
-  grid-column-end:2;
+  grid-template-rows: 1fr;
+  /*grid-column-start:2;
+  grid-column-end:2;*/
   height:100%;
   padding:15px;
   position: relative;
