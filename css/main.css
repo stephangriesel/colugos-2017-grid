@@ -64,7 +64,7 @@ header h1 {
 .one-wrap {
   /* display: grid; */
   grid-template-rows: 1fr;
-  /* position: absolute;*/
+  position: absolute;
 }
 
 .one-wrap p {
@@ -78,7 +78,6 @@ header h1 {
   grid-column-end:1;
   height:100%;
   padding:15px;
-  width: 100%;
   /* position: relative;
 }
 
@@ -90,7 +89,6 @@ header h1 {
   height:100%;
   padding:15px;
   position: relative;
-  width:100%;
 }
 
 /* .one-wrap:after {
