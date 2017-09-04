@@ -27,6 +27,22 @@ header {
   height: 500px;
 }
 
+.contact-wrap {
+  display: grid;
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
+.contact {
+  align-content: center;
+  background: rgba(255,255,255,0.5);
+  display:grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  padding:15px;
+  text-align: center;
+}
+
 footer {
   background-color: #999999;
   display: grid;
