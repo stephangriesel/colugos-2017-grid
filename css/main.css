@@ -375,7 +375,7 @@ ul {
   footer {
     background-color: #999999;
     display: grid;
-    font-size: 12px;
+    font-size: 10px;
     grid-template-rows: 1fr;
     justify-content: right;
     padding-right:1.8em;
