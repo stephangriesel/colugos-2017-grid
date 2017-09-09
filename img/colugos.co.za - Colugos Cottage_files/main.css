@@ -286,7 +286,7 @@ ul {
   }
   
   .three-wrap:after {
-    background: url("../img/4.jpeg");
+    background: url("../img/2.jpg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -344,7 +344,7 @@ ul {
   }
   
   .five {
-    background-image: url("../img/2.jpg");
+    background-image: url("../img/4.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:800px;
