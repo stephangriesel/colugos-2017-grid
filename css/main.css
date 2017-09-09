@@ -40,6 +40,9 @@ a:active {
 /* Wrapper start */
 .wrapper { 
   display:grid;
+}
+
+p {
   padding-right:1em;
   padding-left:1em;
 }
