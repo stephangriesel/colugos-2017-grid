@@ -1,14 +1,17 @@
 html body {
   background-color: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
+  color:#664345;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
 	margin: 0;
 	padding: 0;
 }
 
 .boldtext {
-  font-family: 'Orbitron', sans-serif;;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 a {
@@ -36,7 +39,9 @@ a:active {
 }
 /* Wrapper start */
 .wrapper { 
-	display:grid;
+  display:grid;
+  padding-right:1em;
+  padding-left:1em;
 }
 
 /* Header start */
@@ -50,6 +55,12 @@ header {
   height: 500px;
 }
 
+.logo {
+  color: #664345;
+  font-family: 'Orbitron', sans-serif;
+  padding-left:0.5em;
+}
+
 .contact-wrap {
   display: grid;
   grid-template-rows: 1fr;
@@ -57,8 +68,6 @@ header {
 }
 
 .contact {
-  align-content: center;
-  background: rgba(255,255,255,0.5);
   display:grid;
   grid-template-rows: 1fr;
   justify-content: center;
@@ -67,7 +76,7 @@ header {
 }
 
 footer {
-  background-color: #999999;
+  background-color: #FFFFFF;
   display: grid;
   font-size: 12px;
   grid-template-rows: 1fr;
@@ -100,7 +109,7 @@ ul {
   .boldtext {
     font-family: 'Orbitron', sans-serif;;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   /* Wrapper start */
@@ -146,7 +155,7 @@ ul {
   }
   
   .one {
-    background-image: url("../img/6.jpg");
+    background-image: url("../img/1.jpg");
     background-size: cover; 
     grid-template-columns: 1fr;
     height:800px; /* Change this to EM's*/
@@ -156,6 +165,7 @@ ul {
     display: grid;
     grid-template-rows: 1fr;
     position: absolute;
+    
   }
   
   .one-wrap p {
@@ -163,7 +173,7 @@ ul {
   }
   
   .one-text-half-left {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start: 1;
     grid-column-end:1;
@@ -173,7 +183,7 @@ ul {
   }
   
   .one-text-half-right { /* Split columns in wrapped row */
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start:2;
     grid-column-end:2;
@@ -183,7 +193,7 @@ ul {
   }
   
   .one-wrap:after {
-    background: url("../img/1.jpeg");
+    background: url("../img/1.jpg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -197,10 +207,10 @@ ul {
   
   
   .two {
-    background-image: url("../img/1.jpeg");
+    background-image: url("../img/5.jpg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:700px;
+    height:800px;
   }
   
   .two-wrap {
@@ -210,7 +220,7 @@ ul {
   }
   
   .two-text-half-left {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start:1;
     grid-column-end:1;
@@ -220,7 +230,7 @@ ul {
   }
   
   .two-text-half-right {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start:2;
     grid-column-end:2;
@@ -230,7 +240,7 @@ ul {
   }
   
   .two-wrap:after {
-    background: url("../img/1a.jpeg");
+    background: url("../img/5.jpg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -243,10 +253,10 @@ ul {
   }
   
   .three {
-    background-image: url("../img/2.jpeg");
+    background-image: url("../img/4.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:700px;
+    height:800px;
   }
   
   .three-wrap {
@@ -256,7 +266,7 @@ ul {
   }
   
   .three-text-half-left {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start:1;
     grid-column-end:1;
@@ -266,7 +276,7 @@ ul {
   }
   
   .three-text-half-right {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     display: grid;
     grid-column-start:2;
     grid-column-end:2;
@@ -276,7 +286,7 @@ ul {
   }
   
   .three-wrap:after {
-    background: url("../img/3.jpeg");
+    background: url("../img/4.jpeg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -290,10 +300,10 @@ ul {
   
   
   .four {
-    background-image: url("../img/3.jpeg");
+    background-image: url("../img/7.jpg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:700px;
+    height:800px;
   }
   
   .four-wrap {
@@ -303,7 +313,7 @@ ul {
   }
   
   .four-text-half-left {
-    background: rgba(255,255,255,0.5);
+    background: rgba(250,172,168,0.5);
     display: grid;
     grid-column-start:1;
     grid-column-end:1;
@@ -312,7 +322,7 @@ ul {
   }
   
   .four-text-half-right {
-    background: rgba(255,255,255,0.5);
+    background: rgba(250,172,168,0.5);
     display: grid;
     grid-column-start:2;
     grid-column-end:2;
@@ -321,7 +331,7 @@ ul {
   }
   
   .four-wrap:after {
-    background: url("../img/4.jpeg");
+    background: url("../img/7.jpg");
     position: absolute;
     background-attachment:fixed;
     background-size: cover;
@@ -337,14 +347,14 @@ ul {
     background-image: url("../img/4.jpeg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:700px;
+    height:800px;
   }
   
   .six {
-    background-image: url("../img/5.jpeg");
+    background-image: url("../img/5.jpg");
     background-size: cover; 
     grid-template-columns: 1fr;
-    height:700px;
+    height:800px;
   }
   
   .six-text {
@@ -365,7 +375,7 @@ ul {
   
   .contact {
     align-content: center;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.7);
     display:grid;
     grid-template-rows: 1fr;
     justify-content: center;
@@ -396,7 +406,7 @@ ul {
   }
   
   footer {
-    background-color: #999999;
+    background-color: rgba(255, 255, 255, 0.7);
     display: grid;
     font-size: 10px;
     grid-template-rows: 1fr;
@@ -405,6 +415,8 @@ ul {
   }
 
 }
+
+
 
 
 
