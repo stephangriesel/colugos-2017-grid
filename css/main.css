@@ -58,6 +58,18 @@ header {
   height: 500px;
 }
 
+#main {
+  display:grid;
+  justify-content: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#main li {
+  float:left;
+  padding: 10px;
+}
+
 .logo {
   color: #664345;
   font-family: 'Orbitron', sans-serif;
