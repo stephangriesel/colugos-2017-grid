@@ -56,6 +56,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 500px;
+  z-index:0;
 }
 
 .fixed-nav nav {
@@ -63,13 +64,15 @@ header {
   box-shadow: 0 5px rgba(0,0,0,0.1);
 }
 
-h1.logo {
-  max-width: 0;
+h1 .logo {
+  max-width: 0; 
+  height:auto;
   overflow: hidden;
   background: white;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   font-weight: 600;
   font-size:30px;
+  z-index: 1;
 }
 
 .fixed-nav h1.logo {
