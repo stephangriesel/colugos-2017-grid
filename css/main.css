@@ -58,6 +58,24 @@ header {
   height: 500px;
 }
 
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+h1.logo {
+  max-width: 0;
+  overflow: hidden;
+  background: white;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size:30px;
+}
+
+.fixed-nav h1.logo {
+  max-width: 500px;
+}
+
 #main {
   display:grid;
   justify-content: center;
@@ -430,6 +448,7 @@ ul {
   }
 
 }
+
 
 
 

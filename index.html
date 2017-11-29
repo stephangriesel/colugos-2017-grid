@@ -9,25 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://use.fontawesome.com/83d0a7e173.js"></script>
 </head>
-
 <body>
+
     <header>
-        <div>
-                <!-- <h1 class="logo"><i class="fa fa-home" aria-hidden="true"></i>  Colugos Cottage</h1>    -->
-        <nav id="main">
-                    <ul>
-                        <li>Home</li>
-                        <li>Photos</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav> 
-        </div>
+            <h1 class="logo"><i class="fa fa-home" aria-hidden="true"></i>  Colugos Cottage</h1>
     </header>
+    
+    <!-- <nav id="main">
+            <ul>
+              <li class="logo"><a href="#">Colugos</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Maps</a></li>
+            </ul>
+          </nav> -->
+
     <section class="wrapper">
         
         <div class="one">
         </div>
-        <div class="one-wrap" class="swoopInLeft">
+        <div class="one-wrap">
             <div class="one-text-half-left">
                 <p>Most of our guests fly from country to country like <span class="boldtext">Colugos</span> fly from tree to tree.</p>
                 <p>Colugos are arboreal gliding mammals found in Southeast Asia. They are the most capable gliders of all gliding
@@ -120,8 +121,17 @@
                     <!-- Navigation menu sticky -->
                     <script>
                         const nav = document.querySelector('#main');
+                        const topOfNav = nav.offsetTop;
 
                         function fixNav () {
+                            if(window.scrollY >= topOfNav) {
+                                document.body.style.paddingTop = nav.offsetHeight + 'px';
+                                document.body.classList.add('fixed-nav');                               
+                            } else {
+                                document.body.classList.remove('fixed-nav');
+                                document.body.style.paddingTop = 0;
+                            }
+
 
                         }
 
